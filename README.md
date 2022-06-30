@@ -62,3 +62,9 @@ git push origin 0.1.0
 然后想其他三方库一样，添加 `pod "XDUIExtension"`就可以了
 如图：
 ![](https://raw.githubusercontent.com/ywdonga/oss/main/202206151650876.png)
+
+### 更新podspec命令记录
+##### 1.更新私有库podspec
+`pod repo push XDKitSpecs XDScan.podspec --allow-warnings`
+##### 2.更新公开库podspec
+`pod trunk push XDScan.podspec --allow-warnings`
