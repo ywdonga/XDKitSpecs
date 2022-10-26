@@ -1,4 +1,4 @@
-# XDKitSpecs
+# XDKitSpecs [仓库](https://github.com/ywdonga/XDKitSpecs.git)
 存放XDKit相关的Specs
 
 # Swift制作私有库 GitHub（图文详解）
@@ -63,8 +63,8 @@ git push origin 0.1.0
 如图：
 ![](https://raw.githubusercontent.com/ywdonga/oss/main/202206151650876.png)
 
-### 更新podspec命令记录
-##### 1.更新私有库podspec
-`pod repo push XDKitSpecs XDScan.podspec --allow-warnings`
-##### 2.更新公开库podspec
-`pod trunk push XDScan.podspec --allow-warnings`
+### 发布更新podspec命令记录
+##### 1.发布更新私有库podspec，`XDKitSpecs`为私有索引仓库
+`pod repo push XDKitSpecs XDUIExtension.podspec --allow-warnings`
+##### 2.发布更新公开库podspec，直接发布到Pod上
+`pod trunk push XDUIExtension.podspec --allow-warnings`
